@@ -29,13 +29,12 @@ public class Point {
     }
 
     public float [] getXY() {
-        float [] arr = {this.x, this.y};
-        return arr;
+        return new float[] {x, y};
     }
 
     public void setXY(float x, float y) {
-        this.x = x;
-        this.y = y;
+        setX(x);
+        setY(y);
     }
 
     @Override
